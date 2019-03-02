@@ -5,6 +5,7 @@ import './App.css';
 import './components/Navbar'
 import Navbar from './components/Navbar';
 import Register from './components/Register';
+import Login from './components/Login'
 
 class App extends Component {
   render() {
@@ -12,6 +13,7 @@ class App extends Component {
       <div>
         <Navbar />
         <Register />
+        <Login />
       </div>
     );
   }
